@@ -18,6 +18,7 @@ Data includes 2 csv files:
 
 disaster_messages.csv: Messages data.
 disaster_categories.csv: Disaster categories of messages.
+
 Folder Structure:
 app
 
