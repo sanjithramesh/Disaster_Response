@@ -12,33 +12,9 @@ Web Application using Flask to show model results and predictions in real time.
 
 Data:
 
-This dataset contains 30,000 messages comprising of different disasters spanning several years. The data has been encoded with 36 different categories related to disaster response 
+This dataset contains 30,000 messages comprising of different disasters spanning several years. The data has been encoded with 36 different categories related to disaster response.
 
-Data includes 2 csv files:
-
-disaster_messages.csv: Messages data.
-disaster_categories.csv: Disaster categories of messages.
-
-Folder Structure:
-app
-
-| - templates
-|- master.html # main page of web application
-|- go.html # classification result page of web application
-|- run.py # Flask file that runs application
-data
-
-|- disaster_categories.csv # data to process
-|- ML Pipeline Preparation.ipynb
-|- ETL Pipeline Preparation.ipynb
-|- disaster_messages.csv # data to process
-|- process_data.py
-|- Disaster_Response.db # database to save clean data to
-models
-
-|- train_classifier.py
-|- classifier.pkl # saved model
-README.md
+![image](https://user-images.githubusercontent.com/52591382/168524250-82ed8eaa-4a55-4955-9008-92014377d067.png)
 
 Installation:
 This project requires Python 3.x and the following Python libraries:
