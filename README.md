@@ -4,14 +4,15 @@ This project is an effort to classify disaster messages during times of emergenc
 
 The Project is divided into the following Sections:
 
-Data Processing, ETL Pipeline to extract data from source, clean data and save them in a proper databse structure.
+Data Processing, 
+ETL Pipeline to extract data from source, 
+clean data and save them in a proper databse structure.
 Machine Learning Pipeline to train a model which is able to classify text messages in 36 categories.
 Web Application using Flask to show model results and predictions in real time.
+
 Data:
 
-This dataset contains 30,000 messages drawn from events including an earthquake in Haiti in 2010, an earthquake in Chile in 2010, floods in Pakistan in 2010, super-storm Sandy in the U.S.A. in 2012, and news articles spanning a large number of years and 100s of different disasters.
-
-The data has been encoded with 36 different categories related to disaster response and has been stripped of messages with sensitive information in their entirety.
+This dataset contains 30,000 messages comprising of different disasters spanning several years. The data has been encoded with 36 different categories related to disaster response 
 
 Data includes 2 csv files:
 
